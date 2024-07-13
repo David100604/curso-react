@@ -53,6 +53,7 @@ class App extends Component{
         <img src={cronometro} className='img' alt="Contorno de um cronômetro branco"/>
         <p className='timer'>{this.state.numero.toFixed(1)}</p>
         <div className='areaBtn'>
+          <p>Testando</p>
           <p className='botao' onClick={this.iniciar}>{this.state.botao}</p>
           <p className='botao' onClick={this.limpar}>LIMPAR</p>
         </div>
